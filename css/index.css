@@ -1,0 +1,67 @@
+
+header{ /*responsavel pelas mudanças do primeiro cabeçalho */
+    display: flex;
+    justify-content: space-between;/*leva para as estremidades dos elemtentos*/
+    background-color: #828282;
+    border-bottom: 10px solid #000000;
+    padding: 10px 20px;
+}
+
+nav{
+   text-align: right;
+   
+}
+
+a{ /*responsavel pelas mudanças nos links do primeiro cabeçalho */
+    display:inline-flex;
+    align-items: center;
+    color:#ffffff;
+    font-size: 25px;
+    font-family:"Fira Code", Arial, Helvetica, sans-serif;/*faz carregar outra fonte caso não tenha da outra*/
+    font-weight: 500; /*negrito da letra*/
+    text-decoration: none; /*retira as linhas debaixo das letras*/
+    margin-right: 40px; /*é o espaço externo faz eles terem espaços uma para outra indo para direita*/
+    margin-top:35px;
+}
+
+a::before{/*conhecido como um pseudo-elemento colocou os quadrados do lado*/
+    content:""; /*tag obrigatoria em sua construção*/
+    background-color: #4C5B84;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+                /*responsavel pela logo L*/
+div{
+    background-color:#4D5355 ;
+    font-size: 115px;
+    text-shadow: 5px 5px 1px #000000 ; /*1°direita e esquerda 2° cima e baixo 3°esfumaça ou distribui os pixels*/
+    color: #ffffff;
+    height: 95px; /* e ajudou a controlar seu tamanho criou um quadrado proporcional*/
+    width: 95px;
+    padding: 20px; /*é o espaço interno ajuda a regular o espaço do quadrado*/
+    line-height: 95px;/*centraliza o logo L no meio*/
+    text-align: center;
+    box-shadow: 4px 4px 2px #000000;
+    
+}
+                /*fechamento dos comandos para losgo*/
+
+                /*responsavel pelo botão download do inicio*/
+#button{
+    display: inline-block; /*retira as limitações de poder controlar o background e faz ficar em linha*/
+    background-color: #000000;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #424242;
+    margin-right: 0px;
+    transition: 1s;
+}
+
+#button:hover{
+    background-color: #4e3b3b;
+    
+}
+
+
+

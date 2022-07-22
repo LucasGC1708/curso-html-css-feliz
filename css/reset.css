@@ -1,0 +1,5 @@
+/*arquivo criado para arrumar a margem que existe no topo fazendo com que o cabeçalho não ocupe por completo*/
+
+body{ /*usado para remover a margem pois o body era o responsavel pela margem que impedia*/
+    margin: 0px;
+}
