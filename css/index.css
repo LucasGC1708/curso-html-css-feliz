@@ -36,7 +36,7 @@ a::before{/*conhecido como um pseudo-elemento colocou os quadrados do lado*/
 
                 /*responsavel pela logo L*/
 h1{
-    background-color:#04b5f0 ;
+    background-color:#4D5355 ;
     font-size: 115px;
     text-shadow: 5px 5px 1px #000000 ; /*1°direita e esquerda 2° cima e baixo 3°esfumaça ou distribui os pixels*/
     color: #ffffff;
@@ -50,8 +50,19 @@ h1{
                 /*fechamento dos comandos para losgo*/
 
                 /*responsavel pelo botão download do inicio*/
+#button{
+    display: inline-block; /*retira as limitações de poder controlar o background e faz ficar em linha*/
+    background-color: #000000;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #424242;
+    margin-right: 0px;
+    transition: 1s cubic-bezier(.45,.97,.68,2.48);
+}
 
-
+#button:hover{
+    background-color: #4e3b3b;
+    transform: scale(1.08);
+}
 
 
 
