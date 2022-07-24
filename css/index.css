@@ -4,7 +4,7 @@ header{ /*responsavel pelas mudanças do primeiro cabeçalho */
     justify-content: space-between;/*leva para as estremidades dos elemtentos*/
     background-color: #828282;
     text-align: center;
-    border-bottom: 10px solid #000000;
+    border-bottom: 10px solid #ff0000;
     padding: 10px 20px;
 }
 
