@@ -57,7 +57,7 @@ h2{
     height: 95px; /* e ajudou a controlar seu tamanho criou um quadrado proporcional*/
     width: 95px;
     padding: 20px; /*é o espaço interno ajuda a regular o espaço do quadrado*/
-    line-height: 95px;/*centraliza o logo L no meio*/
+    line-height: 95px;
     box-shadow: 4px 4px 2px #000000;
     
 }
