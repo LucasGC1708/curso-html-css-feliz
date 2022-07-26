@@ -1,7 +1,7 @@
 h1{
     display: inline-block;
     background-color: #3A4042;
-    color: #ffffff;
+    color: #FFB800;
     font-size: 35px;
     text-align: center;
     font-family: "Press Start 2P";
@@ -13,6 +13,4 @@ h1{
     padding-left:50px;
     padding-right:57px;
     box-shadow: 10px 12px 2px #000000;
-
-
 }
