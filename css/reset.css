@@ -2,4 +2,11 @@
 
 body,h1,h2,h3{ /*usado para remover a margem pois o body era o responsavel pela margem que impedia*/
     margin: 0px;
+    font-family:"Fira Code", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.button{
+    color: #fff;
 }

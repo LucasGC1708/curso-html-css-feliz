@@ -1,0 +1,19 @@
+.action{ /*responsavel pelas mudanças nos links do primeiro cabeçalho */
+    display:inline-flex;
+    align-items: center;
+    color:#ffffff;
+    font-size: 25px;
+    font-family:"Fira Code", Arial, Helvetica, sans-serif;/*faz carregar outra fonte caso não tenha da outra*/
+    font-weight: 500; /*negrito da letra*/
+    text-decoration: none; /*retira as linhas debaixo das letras*/
+    margin-right: 40px; /*é o espaço externo faz eles terem espaços uma para outra indo para direita*/
+    margin-top:35px;
+}
+
+.action::before{/*conhecido como um pseudo-elemento colocou os quadrados do lado*/
+    content:""; /*tag obrigatoria em sua construção*/
+    background-color: #4C5B84;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
