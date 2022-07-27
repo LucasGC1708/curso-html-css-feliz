@@ -4,3 +4,17 @@ h2{
     text-shadow: 4px 4px 0px #000;
     color: #fff;
 }
+
+h3{
+    background-color:#4D5355 ;
+    font-size: 115px;
+    text-shadow: 5px 5px 1px #000000 ; /*1°direita e esquerda 2° cima e baixo 3°esfumaça ou distribui os pixels*/
+    color: #ffffff;
+    height: 95px; /* e ajudou a controlar seu tamanho criou um quadrado proporcional*/
+    width: 95px;
+    padding: 20px; /*é o espaço interno ajuda a regular o espaço do quadrado*/
+    line-height: 95px;
+    box-shadow: 4px 4px 2px #000000;
+    font-family: serif;
+}
+               
