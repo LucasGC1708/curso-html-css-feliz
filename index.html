@@ -19,12 +19,14 @@
 
         <link rel="stylesheet" href="css/reset.css"> <!-- está criando a conexão entre a pasta reset.css que arruma margem e essa-->
         <link rel="stylesheet" href="css/index.css">  <!-- serve para linkar o css ao html --> 
-        <link rel="stylesheet" href="css/components/title.css">
+        <link rel="stylesheet" href="css/components/title-main.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
         <link rel="stylesheet" href="css/components/button.css">
         <link rel="stylesheet" href="css/components/action.css">
         <link rel="stylesheet" href="css/components/banner.css">
+        <link rel="stylesheet" href="css/components/section.css">
+        <link rel="stylesheet" href="css/components/skill.css">
     </head>
     <body> <!-- o corpo do site a parte que será vista pelo usuario-->
         <header>  <!-- cabeçalho-->
@@ -41,14 +43,24 @@
         <section class="banner">
             <div class="wrapper">
                 <div class="box">
-                    <h1>Lucas Gustavo</h1>
-                    <h2>FrontEnd Developer</h2>
+                    <h1 class="main-title">Lucas Gustavo</h1>
+                    <h2 class="subtitle">FrontEnd Developer</h2>
                 </div>
                 <div class="navigation">
                     <a class="button" href="" lang="en">Download CV</a>
                     <a class="button" href="">Contatos</a>
                 </div>
             </div>
+        </section>
+        <section class="section">
+
+            <h2 class="main-title -second">Skills</h2>
+            <dl class="skill"><!--description list-->                
+                <dd class="icon">
+                    <img src="assets/img/ico_html5.png" alt="logo Html em pixelart">
+                </dd>
+                <dt class="title">HTML</dt>       
+            </dl>
         </section>
     </body>
 </html>
