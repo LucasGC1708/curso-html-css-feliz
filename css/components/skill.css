@@ -1,15 +1,18 @@
 .skill{
     display: flex;
+    align-items: center;
     font-family: "Press Start 2P";
     font-size: 20px
 }
 
 .skill .icon{
     margin-right: 27px;
+    width: 90px;
 }
 
 .skill .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
 }
