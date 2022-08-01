@@ -5,7 +5,7 @@
     color: #fff;
 }
 
-h3{
+.logomarca{
     background-color:#4D5355 ;
     font-size: 115px;
     text-shadow: 5px 5px 1px #000000 ; /*1°direita e esquerda 2° cima e baixo 3°esfumaça ou distribui os pixels*/
