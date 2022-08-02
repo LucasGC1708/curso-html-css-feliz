@@ -1,0 +1,16 @@
+.ajuste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 108px;
+}
+
+.ajuste .logomarca{
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    line-height: 270px;
+    font-size: 255px;
+    box-shadow: 10px 10px 1px #fff;
+}

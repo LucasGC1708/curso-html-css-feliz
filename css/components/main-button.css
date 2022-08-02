@@ -1,4 +1,4 @@
-.button{
+.main-button{
     display: inline-block; /*retira as limitações de poder controlar o background e faz ficar em linha*/
     background-color: #000000;
     padding: 18px 20px;
@@ -8,7 +8,7 @@
     transition: 1s cubic-bezier(.45,.97,.68,2.48);
 }
 
-.button:hover{
+.main-button:hover{
     background-color: #4e3b3b;
     transform: scale(1.08);
 }

@@ -1,4 +1,4 @@
-.action{ /*responsavel pelas mudanças nos links do primeiro cabeçalho */
+.main-action{ /*responsavel pelas mudanças nos links do primeiro cabeçalho */
     display:inline-flex;
     align-items: center;
     color:#ffffff;
@@ -10,7 +10,7 @@
     margin-top:35px;
 }
 
-.action::before{/*conhecido como um pseudo-elemento colocou os quadrados do lado*/
+.main-action::before{/*conhecido como um pseudo-elemento colocou os quadrados do lado*/
     content:""; /*tag obrigatoria em sua construção*/
     background-color: #4C5B84;
     width: 10px;

@@ -5,7 +5,7 @@ body,h1,h2,h3{ /*usado para remover a margem pois o body era o responsavel pela 
     color: #fff;
 }
 
-.button{
+.main-button{
     color: #fff;
     font-family:"Fira Code", Arial, Helvetica, sans-serif;
     font-size: 25px;
