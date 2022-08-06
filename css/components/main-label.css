@@ -1,0 +1,13 @@
+form{
+    background-color: #3A4042;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.main-label{
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: "Fira Code";
+    font-weight: 300;
+    line-height: 40px;
+}
