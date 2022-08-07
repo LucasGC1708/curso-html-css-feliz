@@ -9,5 +9,9 @@ form{
     font-size: 30px;
     font-family: "Fira Code";
     font-weight: 300;
-    line-height: 40px;
+    line-height: 70px;
+}
+
+form .main-title.-second{
+    padding-bottom: 90px;
 }

@@ -39,10 +39,10 @@
             <h3 class="logomarca">L</h3>
 
             <nav>  <!-- navegation - navegação do site, tag utilizada para guarda os links de navegação-->
-                <a class="main-action" href=""lang="en">Skills</a> <!-- links-->
-                <a class="main-action" href="">Projetos</a> 
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contatos</a>
+                <a class="main-action" href="#Skills"lang="en">Skills</a> <!-- links-->
+                <a class="main-action" href="#Projetos">Projetos</a> 
+                <a class="main-action" href="#Sobre">Sobre</a>
+                <a class="main-action" href="#Contatos">Contatos</a>
                 <a class="main-button" href="" lang="en">Download CV</a> <!-- um jeito de acelerar o processo de escrita desses links é; a[lang=en]{Download} isso vale para os outros-->
             </nav>
         </header>
@@ -58,67 +58,76 @@
                 </div>
             </div>
         </section>
-        <section class="main-section">
-             <h2 class="main-title -second">Skills</h2>
-             
-             <div class="wrapper-skills">
-                <article class="skill">                     
-                    <img class="icon" src="assets/img/ico_html5.png" alt="logo Html em pixelart">   
-                    <div class="right">
-                        <h3 class="title">HTML</h3>  
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
-                        </progress>
-                    </div> 
-                </article>
-                <article class="skill">                     
-                    <img class="icon" src="assets/img/ico_css3.png" alt="logo css em pixelart">   
-                    <div class="right">
-                        <h3 class="title">CSS</h3>  
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
-                        </progress>
-                    </div> 
-                </article>
-                <article class="skill">                     
-                    <img class="icon" src="assets/img/ico_js.png" alt="logo JS em pixelart">   
-                    <div class="right">
-                        <h3 class="title">JavaScript</h3>  
-                        <progress class="progress-bar" max="100" value="5">
-                            5%
-                        </progress>
-                    </div> 
-                </article>
-            </div>
-        </section>
-        <section class="main-section -second">
-            <h2 class="main-title -second">Projetos</h2>
-            <div class="ajuste">
-                <a href="https://lucasgc1708.github.io/curso-html-css-feliz/">
-                    <h3 class="logomarca">L</h3>
-                </a>
-            </div>
-        </section>
-        <section class="main-section -color">
-            <h2 class="main-title -second">Sobre</h2>
-            <p class="main-description">
-                Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.     
-            </p>
-        </section>
-        <form>
-            <label class="main-label" for="Name">Nome</label>
-            <input class="main-input" id="Name" type="text">
+        <div><a name="Skills"></a>
+            <section class="main-section">
+                <h2 class="main-title -second">Skills</h2>
+                
+                <div class="wrapper-skills">
+                    <article class="skill">                     
+                        <img class="icon" src="assets/img/ico_html5.png" alt="logo Html em pixelart">   
+                        <div class="right">
+                            <h3 class="title">HTML</h3>  
+                            <progress class="progress-bar" max="100" value="70">
+                                70%
+                            </progress>
+                        </div> 
+                    </article>
+                    <article class="skill">                     
+                        <img class="icon" src="assets/img/ico_css3.png" alt="logo css em pixelart">   
+                        <div class="right">
+                            <h3 class="title">CSS</h3>  
+                            <progress class="progress-bar" max="100" value="50">
+                                50%
+                            </progress>
+                        </div> 
+                    </article>
+                    <article class="skill">                     
+                        <img class="icon" src="assets/img/ico_js.png" alt="logo JS em pixelart">   
+                        <div class="right">
+                            <h3 class="title">JavaScript</h3>  
+                            <progress class="progress-bar" max="100" value="5">
+                                5%
+                            </progress>
+                        </div> 
+                    </article>
+                </div>
+            </section>
+        </div>
+        <div><a name="Projetos"></a>
+            <section class="main-section -second">
+                <h2 class="main-title -second">Projetos</h2>
+                <div class="ajuste">
+                    <a href="https://lucasgc1708.github.io/curso-html-css-feliz/">
+                        <h3 class="logomarca">L</h3>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div><a name="Sobre"></a>
+            <section class="main-section -color">
+                <h2 class="main-title -second">Sobre</h2>
+                <p class="main-description">
+                    Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.     
+                </p>
+            </section>
+        </div>
+        <div><a name="Contatos"></a>
+            <form>
+                <h2 class="main-title -second">Contatos</h2>
+                <label class="main-label" for="Name">Nome</label>
+                <input class="main-input" id="Name" type="text">
 
-            <label class="main-label" for="email">Email</label>
-            <input class="main-input" id="email" type="email">
+                <label class="main-label" for="email">Email</label>
+                <input class="main-input" id="email" type="email">
 
-            <label class="main-label" for="Message">Message</label>
-            <textarea class="main-input -textarea" id="Message"></textarea>
+                <label class="main-label" for="Message">Message</label>
+                <textarea class="main-input -textarea" id="Message"></textarea>
 
-            <div class="center">
-                <input class="aperte" type="submit" value="Enviar">
-            </div>
-        </form>
+                <div class="center">
+                    <input class="aperte" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
         <footer class="main-footer">
             <a href="https://github.com/LucasGC1708" target="_blank">
                 <img class="github" src="assets/img/image 2.png" alt="">
